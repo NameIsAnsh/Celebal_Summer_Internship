@@ -3,7 +3,7 @@
 ## Overview
 This project focuses on predicting Customer Lifetime Value (CLV) using historical transaction data. CLV is a crucial metric for businesses to understand the long-term value of their customers, enabling more effective marketing strategies, resource allocation, and customer relationship management.
 
-This project was developed as a major project for training completion, demonstrating skills in data analysis, machine learning, and practical application of CLV models.
+
 
 ## Dataset
 The dataset used in this project is `online_retail_II.xlsx`, which contains transactional data from an online retail store.
@@ -58,7 +58,5 @@ The `model_evaluation.py` script generates several plots to help understand the 
 ## Acknowledgements
 This project utilizes the `lifetimes` library for CLV modeling, which provides robust implementations of probabilistic models.
 
-## License
-This project is open-source and available under the MIT License. Feel free to use, modify, and distribute.
 
 
