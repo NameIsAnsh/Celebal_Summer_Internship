@@ -68,9 +68,7 @@ python main.py
 
 ## 🌐 Deployment
 
-The Streamlit app is configured to run on `0.0.0.0:8501` for easy deployment. You can access it at:
-
-**Live Demo**: https://8501-i43qnl01ogt8pouypdoo9-dd62a052.manusvm.computer
+The Streamlit app is configured to run on `0.0.0.0:8501` for easy deployment. 
 
 ## 💡 Usage
 
@@ -100,58 +98,4 @@ The system processes loan application data with the following fields:
 - Self_Employed, ApplicantIncome, CoapplicantIncome
 - LoanAmount, Loan_Amount_Term, Credit_History
 - Property_Area, Loan_Status (for training data)
-
-### Security
-- API keys are stored in `.env` file
-- `.env` is included in `.gitignore` to prevent accidental commits
-- Environment variables are loaded securely using python-dotenv
-
-## 🚨 Important Notes
-
-1. **API Key Required**: The chatbot requires a valid Gemini API key to function
-2. **Data Privacy**: Ensure your API key is kept secure and not shared publicly
-3. **Rate Limits**: Be aware of Gemini API rate limits for production usage
-4. **Data Quality**: Responses are only as good as the underlying data quality
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-1. **"API key not valid" error**
-   - Verify your Gemini API key is correct
-   - Check that the key has proper permissions
-
-2. **"Data not loaded" error**
-   - Ensure CSV files are in the `upload/` directory
-   - Check that embeddings files (.pkl) exist
-
-3. **Import errors**
-   - Install all dependencies: `pip install -r requirements.txt`
-   - Ensure you're using Python 3.7+
-
-## 📊 Performance
-
-- **Retrieval Speed**: ~100ms for document retrieval
-- **Response Time**: 2-5 seconds (depends on Gemini API)
-- **Memory Usage**: ~50MB for embeddings and vectorizer
-- **Scalability**: Can handle datasets up to 10,000 documents efficiently
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Google Gemini for the generative AI capabilities
-- Streamlit for the web interface framework
-- scikit-learn for the TF-IDF implementation
-- The open-source community for various supporting libraries
 
